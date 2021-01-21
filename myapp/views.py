@@ -16,4 +16,6 @@ def assignment2(request):
 def assignment3(request):
     return render(request,'assignment3.html')    
 def assignment4(request):
-     return render(request,'assignment4.html')   
+     return render(request,'assignment4.html')  
+def form(request):
+    return render(request,'form.html')
